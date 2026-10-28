@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.logs/
+# Nsight Compute reports: large, and they embed host details. Regenerate with the
+# command in benchmarks/h100_bandwidth/profile_minimal.py.
+*.ncu-rep
+*.nsys-rep
+# Per-iteration samples and the histograms drawn from them: regenerable, too bulky to commit.
+*_raw.csv
+benchmarks/*/plots/*_hist_*.png
