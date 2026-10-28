@@ -1,0 +1,4 @@
+# GPU the committed results were measured on (fields from `nvidia-smi -q`, 2026-09-27).
+# Regenerate: nvidia-smi --query-gpu=name,driver_version,memory.total,clocks.max.sm,clocks.max.mem,power.limit,ecc.mode.current,pcie.link.gen.max,pcie.link.width.max --format=csv
+name, driver_version, cuda_version, memory.total, clocks.max.sm, clocks.max.mem, power.limit, ecc.mode.current, persistence_mode, mig.mode.current
+NVIDIA H100 80GB HBM3, 595.71.05, 13.2, 81559 MiB, 1980 MHz, 2619 MHz, 700.00 W, Enabled, Enabled, Disabled
